@@ -46,9 +46,6 @@
 		)); ?><!-- breadcrumbs -->
 	<?php endif?>
 
-        <label id="openLogin">Login</label>
-        <div id="login" style="display:none">Login Form</div>
-	<div class="clear"></div>
         
 	<?php echo $content; ?>
         
@@ -57,12 +54,7 @@
 		All Rights Reserved.<br/>
 		<?php echo Yii::powered(); ?>
 	</div><!-- footer -->
-        <script>
-            $('#openLogin').click(function()
-            {
-                $('#login').show().animate();
-            })
-        </script>
+
 </div><!-- page -->
 
 </body>
